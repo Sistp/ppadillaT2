@@ -4,19 +4,30 @@
              x:Class="ppadillaT2.Vistas.calificaciones"
              Title="calificaciones">
     <VerticalStackLayout>
+
+        <Label/>
+        <Label/>
+        
+        <Image
+    Source="https://www.uisrael.edu.ec/wp-content/uploads/2023/01/logo-uisrael@2x-e1674848533171-1536x388.png"
+    WidthRequest="300"
+    ></Image>
+        <Label/>
+        <Label/>
+
         <Label 
             Text="SISTEMA DE CALIFICACIONES"
             FontSize="Title"
             HorizontalOptions="CenterAndExpand"/>
         <StackLayout Orientation="Horizontal" Padding="20">
-            <Picker x:Name="pkEstudiantes" HorizontalOptions="StartAndExpand" FontSize="Subtitle" FontAttributes="Italic" Title="Selecciona el estudiante"  HorizontalTextAlignment="Start" >
+            <Picker x:Name="pkEstudiantes" HorizontalOptions="CenterAndExpand" FontSize="Subtitle" FontAttributes="Italic" Title="Selecciona el estudiante"  HorizontalTextAlignment="Start" >
                 <Picker.Items>
                     <x:String>Paul Padilla</x:String>
                     <x:String>Karen Vargas</x:String>
                     <x:String>Ana Ruiz</x:String>
                 </Picker.Items>
             </Picker>
-            <DatePicker x:Name="dpFecha"  Format="dd/mm/yyyy" FontSize="Subtitle" HorizontalOptions="StartAndExpand" />
+            <DatePicker x:Name="dpFecha"  Format="dd/mm/yyyy" FontSize="Subtitle" HorizontalOptions="CenterAndExpand" />
 
         </StackLayout>
 
